@@ -27,7 +27,12 @@ The insecure fixture is deliberately synthetic and contains a fake placeholder p
 
 The auditor fails closed when authentication is missing, keeps rules as small explainable functions, records evidence and remediation separately, and sorts output deterministically for review and CI. See [the threat model](docs/threat-model.md) for boundaries and limitations.
 
+## Portfolio media
+
+![Minecraft Configuration Auditor portfolio card](docs/portfolio-card.svg)
+
+This card is illustrative media for the personal demo. It is not a live-server screenshot or a production claim.
+
 ## License
 
 MIT. See [LICENSE](LICENSE).
-
