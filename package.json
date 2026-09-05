@@ -1,0 +1,16 @@
+{
+  "name": "minecraft-config-auditor",
+  "version": "1.0.0",
+  "private": false,
+  "type": "module",
+  "description": "A read-only, offline auditor for Minecraft Java/Bedrock server configuration fixtures.",
+  "scripts": {
+    "test": "node --test",
+    "audit:balanced": "node src/cli.mjs fixtures/balanced --format markdown",
+    "audit:insecure": "node src/cli.mjs fixtures/insecure --format markdown"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "license": "MIT"
+}
